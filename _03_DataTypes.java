@@ -11,6 +11,7 @@
  * short - 2bytes/16bits
  * byte - 1 byte/8bits   // used to store number between -128 to 127
  * 
+ * In java by default float is double so, we need to use 'f' at last to tail that it is float.
  */
 
 
