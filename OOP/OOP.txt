@@ -1,0 +1,19 @@
+
+
+-> In java Multiple inheritance not allowed.
+
+-> Method overriding :
+    - Subclass provides implementation of the method that has been declared
+      by one of its parent class.
+
+    - Runtime polymorphism. Hence, we can achieve polymorphism in java  
+      with the help of inheritance.
+
+-> Method Oveloading:
+    - Compiletime polymorphism.
+
+-> Final method can not be override.
+
+-> final class can not create Subclass or inherit.
+
+-> final variables can not be changed.
