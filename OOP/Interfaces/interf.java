@@ -18,6 +18,12 @@ interface Animal {
   void eat();
 
   void drink();
+  /* 
+   * if not override this then it always print it befault value
+   */
+  default void walk(){
+    System.out.println("Animal is walking");
+  }
 
 }
 
@@ -51,5 +57,6 @@ public class interf {
     m.sings();
     m.drink();
     System.out.println(Animal.legs);
+    m.walk();
   }
 }
