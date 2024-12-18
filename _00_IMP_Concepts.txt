@@ -2,4 +2,8 @@
 
 -> In Java, the default value of a String is null.
 
-In C++, the default value of a string is an empty string (""), not null.
+-> In C++, the default value of a string is an empty string (""), not null.
+
+-> In Java, the default value of an int depends on where it is declared.
+   - Automatically initialized to 0.
+   
