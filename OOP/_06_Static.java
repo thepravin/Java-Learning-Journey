@@ -3,14 +3,28 @@
  * It bind with the class not an object.
  * create only one copy in memory and share with all objects.
  * for using statice variable or function, not need to create object; 
+ * 
+ * - in static function we can not call non-static functions.because they require
+ *    to create object. "Compile time error"
+ * 
+ * - non-static function can call static function.
  */
 
 class Person {
     public static int count = 10;
 
+    public static void printHellow(){
+        System.out.println("Hello");
+    }
+
 }
 
 public class _06_Static {
+
+    static void sayHi(){
+        System.out.println("Say,HI");
+    }
+
     public static void main(String args[]) {
         Person p1 = new Person();
         System.out.println(p1.count); // 10
@@ -18,6 +32,11 @@ public class _06_Static {
         Person.count = 24;
         System.out.println(Person.count); // 24
 
-        Math.max(3, 4)
+        p1.printHellow();
+        Person.printHellow();
+       
+        sayHi(); // static methods not need object 
+
+
     }
 }
