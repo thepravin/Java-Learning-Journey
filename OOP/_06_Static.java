@@ -8,6 +8,8 @@
  *    to create object. "Compile time error"
  * 
  * - non-static function can call static function.
+ * 
+ * - Static block run before constructor.
  */
 
 class Person {
@@ -19,13 +21,20 @@ class Person {
 
 }
 
-public class _06_Static {
+public class _06_Static { 
+    
+    static{
+        System.out.println("Static Block !!!");
+    }
 
     static void sayHi(){
         System.out.println("Say,HI");
     }
 
     public static void main(String args[]) {
+
+        System.out.println("Form the main !!");
+
         Person p1 = new Person();
         System.out.println(p1.count); // 10
         // p1.count = 24; // OR
