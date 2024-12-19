@@ -20,5 +20,7 @@ public class Main {
 
         Collections.sort(list);
 
+        
+
     }
 }

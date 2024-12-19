@@ -1,3 +1,5 @@
+import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
@@ -28,7 +30,7 @@ public class Main {
 
         }
 
-        for(String key : mp.keySet()){
+       /*  for(String key : mp.keySet()){
             System.out.print(key+" ");
         }
         System.err.println();
@@ -36,8 +38,8 @@ public class Main {
         for(Integer value : mp.values()){
             System.out.print(value+" ");
         }
-
-
+ */
+        
 
 
     }
