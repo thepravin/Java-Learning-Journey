@@ -7,5 +7,9 @@ public class _04_DataType_Conversion {
             /* Explicit type conversion */
             // long A2 = 12;
             // int a2 = (int)A2; // type casting or conversion
+
+            int a = 3;
+            float b = a;
+            System.out.print(b);
     }
 }

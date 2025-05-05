@@ -9,8 +9,8 @@ public class Main {
 
         Arrays.sort(arr); // use quick sort
 
-        
-        Arrays.fill(arr,1);
+
+        Arrays.fill(arr, 1);
         
         for(int i : arr){
             System.out.print(i+" ");

@@ -1,6 +1,6 @@
 import java.util.ArrayDeque;
 
-public class Main {
+public class ArrayDequePractice {
     public static void main(String[] args) {
         ArrayDeque<Integer> adq = new ArrayDeque<>();
 
