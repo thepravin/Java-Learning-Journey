@@ -11,7 +11,7 @@ public class _07_Array {
          * int marks[] = {15,8,16,17,23};
          */
 
-        int age[] = new int[5];
+     /*    int age[] = new int[5];
 
         Scanner sc = new Scanner(System.in);
 
@@ -25,6 +25,32 @@ public class _07_Array {
         }
         System.out.println();
         System.out.println("Size of Array : "+age.length);
+
+        sc.close(); */
+
+        //* --------- 2D Arrays ----------------- */
+        /* 
+         * -> Read how 2D arrays store in memory (in Java)
+         */
+
+        int matrix [][] = new int[3][3];
+        int r = matrix.length;
+        int c = matrix[0].length;
+
+        Scanner sc = new Scanner(System.in);
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                matrix[i][j]=sc.nextInt();
+            }
+        }
+
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+               System.out.print( matrix[i][j]+" ");
+            }
+            System.out.println();
+        }
+        
 
         sc.close();
     }

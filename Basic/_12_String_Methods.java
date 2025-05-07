@@ -41,16 +41,26 @@ public class _12_String_Methods {
          * }
          */
 
-         String empty = "";
-         System.out.println(empty.isEmpty());
+        String empty = "";
+        System.out.println(empty.isEmpty());
 
-         String blank = "   ";
-         System.out.println(blank.isBlank());
+        String blank = "   ";
+        System.out.println(blank.isBlank());
 
         /*
          * .trim() -> remove spaces from front and back
          * 
          */
 
+        /*
+         * str1.compareTo(str2) -> lexicogriphicaly compare two strings.
+         * 0 = equal
+         * < 0 = -ve str1<str2
+         * > 0 = +ve str1 > str2
+         */
+
+         /* 
+          * str1.compareToIgnoreCase(str2) -> ignore upper and lower case.
+          */
     }
 }
