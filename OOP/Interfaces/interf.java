@@ -6,9 +6,10 @@
  * To use interface, other classes must implement it.
  * use 'implements' keywords to implement an interface.
  * 
- * bydefault all methods are 'public abstract' in interface
+ * bydefault all methods are 'public abstract' and without implementaion in interface.
+ * variables in the interface are final,public and static.
  * 
- * Interface used to achieve multiple inheritance in java.
+ * Interface used to achieve 'multiple inheritance' in java.
  */
 
 interface Animal {
@@ -18,10 +19,11 @@ interface Animal {
   void eat();
 
   void drink();
-  /* 
+
+  /*
    * if not override this then it always print it befault value
    */
-  default void walk(){
+  default void walk() {
     System.out.println("Animal is walking");
   }
 
@@ -29,10 +31,11 @@ interface Animal {
 
 interface Pet {
   void sings();
+
   void drink();
 }
 
-class Monkey implements Animal, Pet { // this not possible in abstract
+class Monkey implements Animal, Pet { // this not possible in abstract (multipal inheritance)
 
   @Override
   public void eat() {

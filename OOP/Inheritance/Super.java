@@ -1,6 +1,6 @@
 
 /* 
- * - Used to access emidiate parent class variables and methods.
+ * - Used to access emidiate parent class variables and methods and constructors.
  * - We can't call this and super constructor at a same time. use one at a time.
  */
 

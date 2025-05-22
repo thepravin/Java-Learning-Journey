@@ -2,6 +2,10 @@
 
 -> In java Multiple inheritance not allowed.
 
+-> In java class are not 'private' and 'protected'.
+
+-> Java do not have Destructors because GARBAGE COLLECTOR do the deletion work.
+
 -> Method overriding :
     - Subclass provides implementation of the method that has been declared
       by one of its parent class.
@@ -17,3 +21,5 @@
 -> final class can not create Subclass or inherit.
 
 -> final variables can not be changed.
+
+-> (READ ABOUT...) Constructor chaining

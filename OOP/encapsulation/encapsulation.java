@@ -1,4 +1,3 @@
-package oop.encapsulation;
 
 class Person{
     private int age;
