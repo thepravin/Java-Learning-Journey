@@ -64,8 +64,10 @@ public class Main {
          arr.add(5);
          arr.add(8);
 
-         Collections.sort(arr);        
+         Collections.sort(arr); // ascending order
          System.out.println(arr);
+
+         Collections.sort(arr,Collections.reverseOrder()); // descending order
 
          System.out.println(arr.indexOf(11));
     }
